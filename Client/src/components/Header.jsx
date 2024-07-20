@@ -2,16 +2,18 @@ import React from 'react';
 import './header.css';
 export default function Header(){
     return(
-       <section className='Header-section'>
+  <div className='Navbar'>
+       <div className='Header-section'>
         <div className='App-logo'>
-            <img src='/applogo'/>
+            <img src='/applogo.png'/>
         </div>
         <ul className='header-menu'>
-            <li className='nav-item'>Home</li>
-            <li className='nav-item'>Blogs</li>
-            <li className='nav-item'>Discover Forker</li>
-
+            <li className='nav-item'><a className="nav-links" href= "/">Home</a></li>
+            <li className='nav-item'><a className="nav-links" href= "/">Blogs</a></li>
+            <li className='nav-item'><a className="nav-links" href= "/">Discover Froker</a></li>
+   
         </ul>
-        </section>
+        </div>
+        </div>
     )
 }
