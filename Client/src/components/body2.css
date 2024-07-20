@@ -31,12 +31,8 @@ audio, canvas, embed, iframe, img, object, svg, video {
 .booxx {
     padding: .5rem;
     text-decoration: none;
-}
-
-.booxx {
     display: flex;
     flex-direction: column;
-    padding-left: 5rem;
     width: 100%;
 }
 a {
