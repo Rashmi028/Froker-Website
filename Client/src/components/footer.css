@@ -1,4 +1,9 @@
-
+.Footer-section{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
 .Footer-columns{
     align-items: flex-start;
     display: flex;
@@ -6,10 +11,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 4%;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+  
     
 }
 
@@ -107,4 +109,36 @@ a {
 audio, canvas, embed, iframe, img, object, svg, video {
     display: block;
     vertical-align: middle;
+}
+.des {
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.footersvg {
+    display: flex;
+    flex-wrap: nowrap;
+    height: auto;
+    width: 100%;
+}
+
+.centered-text {
+    color: #f0f8ff;
+    left: 50%;
+    padding: 5px 10px;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+.design {
+    size-adjust: 10px;
+}
+@media only screen and (min-width: 781px) {
+    .desa {
+        display: none;
+    }
 }
