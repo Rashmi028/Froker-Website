@@ -7,7 +7,7 @@ const blogSchema = new mongoose.Schema(
             required: true,
             unique: true,
         },
-        blogTitle: {
+        Title: {
             type: String,
             required: true,
             trim: true,
@@ -32,7 +32,7 @@ const blogSchema = new mongoose.Schema(
             default: 0
         },
         likedBy: [{
-            type: String, // Assume this is a unique user identifier (e.g., user ID or username)
+            type: String, 
             unique: true
         }],
         description: [{
@@ -58,4 +58,5 @@ const blogSchema = new mongoose.Schema(
     }
 );
 
-module.exports = mongoose.model("blog", blogSchema);
+const Blog = mongoose.model("blog", blogSchema);
+export default Blog;
