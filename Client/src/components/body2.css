@@ -1,0 +1,196 @@
+.body2 {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.headin {
+    font-feature-settings: lining-nums proportional-nums;
+    color: #333;
+    font-family: GilroyBold-☞, sans-serif;
+    font-size: clamp(36px,5vw,40px);
+    font-style: normal;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-weight: 400;
+    margin-top: 4rem;
+    padding-bottom: 1rem;
+    text-align: left;
+}
+.blogss {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: .5rem;
+    place-items: "center";
+    width: 100%;
+}
+
+.blogimg4, .blogss {
+    height: 100%;
+}
+.booxx {
+    padding: .5rem;
+    text-decoration: none;
+}
+
+.booxx {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    width: 100%;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+img, video {
+    height: auto;
+    max-width: 100%;
+}
+.autor, .ins {
+    font-family: Gilroy-SemiBold, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 1rem;
+}
+
+.autor {
+    color: #fd7a33;
+    font-size: clamp(1rem,2vw,1rem);
+}
+.ins, .inside {
+    text-align: left;
+}
+
+.ins {
+    color: #1a1a1a;
+    font-size: clamp(1rem,1vw,2rem);
+    padding-bottom: .5rem;
+}
+.inside {
+    color: #667085;
+    font-family: Gilroy-Regular, sans-serif;
+    font-weight: 400;
+    line-height: clamp(1.2rem,1vw,1.2rem);
+}
+.bottom {
+    color: #fd7a33;
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: clamp(1rem,1vw,1rem);
+    font-weight: 600;
+    padding-top: .6rem;
+    text-decoration-line: underline;
+}
+
+.bottom, .inside {
+    font-style: normal;
+}
+.pagging {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    padding: 4rem;
+}
+
+.pagging {
+    cursor: pointer;
+}
+.css-nhb8h9 {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+menu, ol, ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.css-f4jy6p.Mui-disabled {
+    opacity: 0.38;
+}
+
+<style>
+.css-f4jy6p.Mui-disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.css-f4jy6p {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0px;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    letter-spacing: 0.01071em;
+    border-radius: 16px;
+    text-align: center;
+    box-sizing: border-box;
+    min-width: 32px;
+    height: 32px;
+    padding: 0px 6px;
+    margin: 0px 3px;
+    color: rgba(0, 0, 0, 0.87);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+}
+:disabled {
+    cursor: default;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+    background-color: initial;
+    background-image: none;
+}
+button {
+    background: none;
+    border: none;
+    padding: 0;
+}
+[role=button], button {
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    font-feature-settings: inherit;
+    color: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    font-variation-settings: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+.css-lrb33l {
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: currentcolor;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.25rem;
+    margin: 0px -8px;
+}
+
+audio, canvas, embed, iframe, img, object, svg, video {
+    display: block;
+    vertical-align: middle;
+}
