@@ -5,5 +5,6 @@ import BlogPage from './BlogPage.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <BlogPage />
+
+    <BlogPage/>
 )

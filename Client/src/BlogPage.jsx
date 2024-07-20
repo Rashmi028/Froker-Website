@@ -4,11 +4,17 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import Newsletter from './components/Newsletter'
 import MainContent from "./components/MainContent";
+import Body2 from "./components/Body2";
+
 export default function BlogPage(){
     return(
         <>
         <Header/>
+        <div className="body">
         <MainContent/>
+        <Body2/>
+        <Newsletter/>
+        </div>
         <Footer/>
         </>
     )
