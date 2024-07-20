@@ -3,12 +3,14 @@ import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Newsletter from './components/Newsletter'
+import Body1 from './components/Body1'
 function App() {
 
   return (
    <>
     <Header/>  
     <div className='body'>
+      <Body1/>
       <Newsletter/>
     </div>
     <Footer/>
