@@ -2,10 +2,13 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    height: auto;
     background-color: rgb(255, 255, 255);
 }
 
 .Header-section {
+    position: fixed;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -54,4 +57,52 @@
 
 .nav-links:hover {
     border-bottom: 3px solid #f76f32;
+}
+@media screen and (max-width: 1100px) {
+    .sub {
+        font-size: clamp(16px,4vw,32px);
+    }
+}
+@media screen and (max-width: 1100px) {
+    .blogs, .boka, .bokaa {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .boox1, .boox2 {
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .boox1 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .blogimg1, .blogimg2 {
+        height: 100;
+        object-fit: cover;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .sideblog {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .boox2 {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .subbboox {
+        border-radius: 10px;
+        width: 100%;
+    }
 }

@@ -46,3 +46,138 @@ element.style {
     color: #3d3d3d;
     font-weight: 400;
 }
+
+.blogs{
+    display: flex;
+}
+.boox1 {
+    cursor: pointer;
+    height: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    width: 50%;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.blogimg2, .subboox {
+    height: 100%;
+    width: 100%;
+}
+
+.blogimg1, .subbboox {
+    height: 100%;
+    width: 100%;
+}
+
+.blogimg1 {
+    object-fit: cover;
+}
+img, video {
+    height: auto;
+    max-width: 100%;
+}
+audio, canvas, embed, iframe, img, object, svg, video {
+    display: block;
+    vertical-align: middle;
+}
+.autor, .ins {
+    font-family: Gilroy-SemiBold, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 1rem;
+}
+
+.autor {
+    color: #fd7a33;
+    font-size: clamp(1rem,2vw,1rem);
+}
+.ins, .inside {
+    text-align: left;
+}
+
+.ins {
+    color: #1a1a1a;
+    font-size: clamp(1rem,1vw,2rem);
+    padding-bottom: .5rem;
+}
+.autor, .ins {
+    font-family: Gilroy-SemiBold, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 1rem;
+}
+.bottom, .inside {
+    font-style: normal;
+}
+
+.inside {
+    color: #667085;
+    font-family: Gilroy-Regular, sans-serif;
+    font-weight: 400;
+    line-height: clamp(1.2rem,1vw,1.2rem);
+}
+.ins, .inside {
+    text-align: left;
+}
+blockquote, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, p, pre {
+    margin: 0;
+}
+
+.bottom {
+    color: #fd7a33;
+    font-family: Gilroy-Bold, sans-serif;
+    font-size: clamp(1rem,1vw,1rem);
+    font-weight: 600;
+    padding-top: .6rem;
+    text-decoration-line: underline;
+}
+
+.bottom, .inside {
+    font-style: normal;
+}
+.sideblog {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.boox2, .boox3 {
+    cursor: pointer;
+    display: flex;
+}
+
+.boox2 {
+    height: 60%;
+    padding-bottom: .5rem;
+    text-decoration: none;
+    width: 100%;
+}
+.subbboox {
+    display: flex;
+    justify-content: center;
+}
+
+.blogimg1, .subbboox {
+    height: 100%;
+    width: 100%;
+}
+.blogimg2 {
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.blogimg2, .subboox {
+    height: 100%;
+    width: 100%;
+}
+.side {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+    padding-left: 1rem;
+    width: 100%;
+}
