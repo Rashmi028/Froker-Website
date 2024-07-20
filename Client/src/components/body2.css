@@ -14,6 +14,10 @@
     padding-bottom: 1rem;
     text-align: left;
 }
+audio, canvas, embed, iframe, img, object, svg, video {
+    display: block;
+    vertical-align: middle;
+}
 .blogss {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -21,7 +25,6 @@
     place-items: "center";
     width: 100%;
 }
-
 .blogimg4, .blogss {
     height: 100%;
 }
@@ -111,7 +114,6 @@ menu, ol, ul {
     opacity: 0.38;
 }
 
-<style>
 .css-f4jy6p.Mui-disabled {
     pointer-events: none;
     cursor: default;
