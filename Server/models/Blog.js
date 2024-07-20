@@ -31,10 +31,6 @@ const blogSchema = new mongoose.Schema(
             type: Number,
             default: 0
         },
-        likedBy: [{
-            type: String, 
-            unique: true
-        }],
         description: [{
         descTitle: {
             type: String,

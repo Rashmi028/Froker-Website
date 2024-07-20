@@ -149,7 +149,7 @@ const blogPosts = [
       }
 ];
 
-export default function Body2() {
+export default function Body2(props) {
     const [currentPage, setCurrentPage] = useState(1);
     const postsPerPage = 9;
     const totalPages = 2;
@@ -173,7 +173,7 @@ export default function Body2() {
                     <div>
                         <div style={{ textAlign: 'justify', paddingLeft: '1rem', paddingRight: '1rem' }}>
                             <div className="headin">
-                                <span>Recent Posts</span>
+                                <span>{props.post}</span>
                             </div>
                             <div className="blogss">
                                 {currentPosts.map((post, index) => (
