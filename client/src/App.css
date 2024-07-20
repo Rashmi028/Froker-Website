@@ -1,0 +1,8 @@
+.body{
+    margin-top: 6.6%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 13%;
+    margin-right: 13%;
+}

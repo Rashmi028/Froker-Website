@@ -1,8 +1,8 @@
 .Footer-section{
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    
 }
 .Footer-columns{
     align-items: flex-start;
