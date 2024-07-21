@@ -3,42 +3,60 @@ import Blog from './Blog.js';
 
 const blogs = [
     {
-        id: "1",
-        Title: 'Delegating Social Media Tasks to AI',
-        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
-        author: 'Roshan',
-        readTime: '2 minute read',
-        likes: 0,
-        description: [
-            {
-                descTitle: 'Unlocking Efficiency with AI-Powered Schedulers',
-                descContent: 'Say goodbye to manual scheduling and hello to AI-powered schedulers! These innovative tools analyze your audience\'s behavior, optimize posting times, and ensure your content reaches its maximum potential.',
-                descImage: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1714712972/Screenshot_2024-05-03_103750_kjohkd.png'
-            }
-        ],
-        createdAt: new Date(),
+      id: 1,
+      Title: "Unlocking the Secrets of Healthy Eating: A Guide to Nutritious Nosh",
+      thumbnail: "blog1.jpg",
+      author: "Varshita",
+      readTime: "5 minutes",
+      likes: 49,
+      description: [
+        {
+          descTitle: "Unlocking the Secrets of Healthy Eating: A Guide to Nutritious Nosh",
+          descContent: "Welcome to the delightful universe of healthy food habits! In this journey, vegetables take center stage, and your taste buds are in for a happy dance. Discover how to turn 'eating right' into a scrumptious adventure that feels more like a treat than a chore."
+        },
+        {
+          descTitle: "Breakfast Bliss – Ignite Your Day with a Nutrient-Packed Feast:",
+          descContent: "Remember the age-old wisdom about breakfast being the most crucial meal? It's not just a saying – it's the fuel your body craves to kickstart the day. Say goodbye to sugary cereals and embrace a bowl of Greek yogurt, granola, and a medley of fresh berries. It's a morning hug for your metabolism! Here's a game-changer – indulge in avocados on whole-grain toast. Creamy, satisfying, and loaded with healthy fats, it will have you powering through your morning like a superhero. Bonus points for pairing it with a sunshine-filled stroll – morning rituals that feel like self-care, not a chore"
+        },
+        {
+          descTitle: "Snack Attack – Mastering Munchies with Nutritional Finesse:",
+          descContent: "Ever faced the mid-afternoon slump, tempted by the vending machine's not-so-nutritious offerings? Fear not! Healthy snacks are your secret weapon. Munch on a handful of protein-packed nuts – almonds, walnuts, or pistachios – for a satisfying crunch. Fruits are nature's candy, guilt-free and delicious. Slice up some apples and pair them with a dollop of peanut butter – a snack-time fiesta in your mouth that keeps you fueled until dinner. Snacking has never been this virtuous!"
+        },
+        {
+          descTitle: "Dinner – The Grand Finale of Your Culinary Day",
+          descContent: "Dinner – the grand finale of your culinary day. Make it a colorful masterpiece by incorporating a rainbow of veggies. Picture your plate as a canvas, each veggie a stroke of nutritional genius. Roast them, sauté them, or toss them into a stir-fry – endless options for a wholesome meal. Lean proteins – the unsung heroes of a hearty dinner. Salmon, grilled chicken, or tofu – your body's building blocks for waking up ready to seize the day. Don't forget the grains – quinoa, brown rice, or whole wheat pasta. They're the supportive sidekicks that make your dinner a wholesome affair. Celebrate Every Bite – The Healthy Food Fiesta Continues: In the realm of healthy eating, deprivation has no place. It's a celebration of flavors, textures, and the joy of nourishing your body. The key? Balance, variety, and the occasional indulgence. A square (or two) of dark chocolate is the universe's way of saying, You're doing great, keep it up! Embark on this gastronomic journey with enthusiasm, curiosity, and a sprinkle of laughter. Your body will thank you, and your taste buds will sing the praises of your newfound healthy food habits. Cheers to a plateful of joy and a life well-nourished!"
+        }
+      ],
+      createdAt: new Date(),
     },
     {
-        id: "2",
-        Title: 'The Rise of Quantum Computing',
-        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
-        author: 'Alice',
-        readTime: '5 minute read',
-        likes: 0,
-        description: [
-            {
-                descTitle: 'What is Quantum Computing?',
-                descContent: 'Quantum computing is the study of how to use phenomena in quantum physics to create new ways of computing.',
-                descImage: 'https://example.com/quantum_computing_1.png'
-            },
-            {
-                descTitle: 'Applications of Quantum Computing',
-                descContent: 'Quantum computers have the potential to revolutionize many industries, including cryptography, materials science, and complex systems modeling.',
-                descImage: 'https://example.com/quantum_computing_2.png'
-            }
-        ],
-        createdAt: new Date(),
+      id: 2,
+      Title: "Efficient Meal Prep: Time-Saving Tips for Busy Foodies",
+      thumbnail: "blog2.jpg",
+      author: "Varshita",
+      readTime: "5 minutes",
+      likes: 49,
+      description: [
+        {
+          descTitle: "Efficient Meal Prep: Time-Saving Tips for Busy Foodies",
+          descContent: "Quick and Efficient Meal Prep Strategies Hello, culinary enthusiasts! Let's delve into efficient meal preparation and kitchen hacks designed to streamline your cooking routine. Quick and efficient meal prep is your secret weapon against the 'I don't have time to cook' dilemma. Start by meticulously planning your weekly menu – it's like having a well-structured roadmap for your taste buds. Embrace the art of multitasking; chop veggies while your pasta simmers and marinate proteins as you groove to your favorite tunes. Investing a bit of extra time upfront ensures more moments of relaxation when you're famished on a hectic Wednesday night."
+        },
+        {
+          descTitle: "Smart Food Preparation Tips for Efficiency:",
+          descContent: "Now, let's explore some smart food preparation tips to enhance efficiency in the kitchen. Opt for batch cooking whenever possible – prepare larger quantities of staple ingredients like grains, beans, and proteins, then store them in portion-sized containers for quick and easy meals throughout the week. Pre-cutting vegetables and fruits in advance can also save valuable time during meal prep. Additionally, consider utilizing kitchen appliances such as slow cookers, pressure cookers, and air fryers to streamline cooking processes and minimize hands-on time. With these smart food preparation strategies, you'll be well-equipped to tackle busy weeknights with ease."
+        },
+        {
+          descTitle: "Mastering the Art of One-Pot Wonders:",
+          descContent: "Who desires a sink teeming with dishes after indulging in a hearty meal? Welcome to the enchanting realm of one-pot wonders – a harmonious blend of flavors simmering in a single, effortlessly cleaned pot. From delectable stews to pasta perfection, these dishes epitomize time-saving brilliance. Begin with a foundational base (pasta, rice, or quinoa), layer on your preferred proteins, veggies, and seasonings, then allow the pot to work its culinary magic. The best part? Minimal cleanup, maximal flavor. One-pot wonders transcend mere recipes; they herald a culinary revolution, proving that less dishwashing equals more gastronomic enjoyment."
+        },
+        {
+          descTitle: "Effortless Cleanup with Kitchen Organization:",
+          descContent: "A clutter-free kitchen is the key to efficient meal prep. Invest in storage solutions like labeled containers, drawer organizers, and stackable shelves to keep your ingredients and cooking tools easily accessible. Designate specific areas for chopping, mixing, and cooking to streamline your workflow and minimize cleanup time. By maintaining a well-organized kitchen, you'll not only save time during meal preparation but also enjoy a more enjoyable cooking experience overall. In the grand banquet of life, let these kitchen hacks serve as your compass. With a touch of foresight, a sprinkle of savvy shopping, and a dollop of one-pot sorcery, you'll emerge as the hero of your kitchen saga. Happy cooking!"
+        }
+      ],
+      createdAt: new Date(),
     },
+  
     {
         id: "3",
         Title: 'Understanding Blockchain Technology',
