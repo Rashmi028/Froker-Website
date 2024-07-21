@@ -6,7 +6,7 @@ const blogPosts = [
     {
         href: '/blog/18',
         id:18,
-        imgSrc: 'blog18.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1714712971/Screenshot_2024-05-03_103708_dx4yto.png',
         author: 'Roshan',
         date: '3 May 2024',
         title: 'Delegating Social Media Tasks ...',
@@ -15,7 +15,7 @@ const blogPosts = [
     {
         href: '/blog/17',
         id:17,
-        imgSrc: 'blog17.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1713875886/Screenshot_2024-04-23_180054_kgdlcs.png',
         author: 'Varshita',
         date: '23 April 2024',
         title: 'Summer Fashion Tips: Dressing ...',
@@ -24,7 +24,7 @@ const blogPosts = [
     {
         href: '/blog/16',
         id:16,
-        imgSrc: 'blog16.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/v1713875888/Screenshot_2024-04-23_180503_quok3i.png',
         author: 'Varshita',
         date: '23 April 2024',
         title: 'Why Brands Should Partner with...',
@@ -33,7 +33,7 @@ const blogPosts = [
     {
         href: '/blog/15',
         id:15,
-        imgSrc: 'blog15.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1713597754/meta_bbe7zn.png',
         author: 'Varshita',
         date: '20 April 2024',
         title: 'Introducing Meta AI: Your New ...',
@@ -42,7 +42,7 @@ const blogPosts = [
     {
         href: '/blog/14',
         id:14,
-        imgSrc: 'blog14.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1712988897/driedlake_fwsv41.png',
         author: 'Varshita',
         date: '8 April 2024',
         title: "Bangalore's Weather and Water ...",
@@ -51,7 +51,7 @@ const blogPosts = [
     {
         href: '/blog/13',
         id:13,
-        imgSrc: 'blog13.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1712410573/skin1_q6n7ar.png',
         author: 'Varshita',
         date: '6 April 2024',
         title: 'Why Natural Skin Care is Good ...',
@@ -60,7 +60,7 @@ const blogPosts = [
     {
         href: '/blog/12',
         id:12,
-        imgSrc: 'blog12.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1711723862/robo1_ewko6u.png',
         author: 'Abhishek Sairam',
         date: '29 March 2024',
         title: 'Devin, the first AI software ...',
@@ -69,7 +69,7 @@ const blogPosts = [
     {
         href: '/blog/11',
         id:11,
-        imgSrc: 'blog11.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1714713623/Screenshot_2024-05-03_104922_kmynzb.png',
         author: 'Varshita',
         date: '21 March 2024',
         title: 'National Creators Award 2024: ...',
@@ -78,7 +78,7 @@ const blogPosts = [
     {
         href: '/blog/10',
         id:10,
-        imgSrc: 'blog10.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1710746278/ression5_vwypjj.png',
         author: 'Varshita',
         date: '15 March 2024',
         title: 'Recession in India 2024: A Rol...',
@@ -87,7 +87,7 @@ const blogPosts = [
     {
         href: '/blog/9',
         id:9,
-        imgSrc: 'blog9.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709970665/visionapplepro_eo0gz9.png',
         author: 'Varshitha',
         date: '9 March 2024',
         title: 'Apple Vision Pro: A Cosmic Rev...',
@@ -96,7 +96,7 @@ const blogPosts = [
       {
         href: '/blog/8',
         id:8,
-        imgSrc: 'blog8.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709879676/ai1_k8fzbq.png',
         author: 'Varshita',
         date: '8 March 2024',
         title: 'Where Text Becomes Cinematic M...',
@@ -105,7 +105,7 @@ const blogPosts = [
       {
         href: '/blog/7',
         id:7,
-        imgSrc: 'blog7.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709878252/cc5_cye3u1.png',
         author: 'Varshita',
         date: '3 March 2024',
         title: 'What Is Content Creation, Anyw...',
@@ -114,7 +114,7 @@ const blogPosts = [
       {
         href: '/blog/6',
         id:6,
-        imgSrc: 'blog6.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Varshitha',
         date: '3 March 2024',
         title: 'Forbes 30 Under 30 India: Cele...',
@@ -123,7 +123,7 @@ const blogPosts = [
       {
         href: '/blog/5',
         id:5,
-        imgSrc: 'blog5.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1707379910/Frokerassets/blog5creator_wpwvki.png',
         author: 'Varshita',
         date: '9 Feb 2024',
         title: 'Mastering the Art of Co...',
@@ -132,7 +132,7 @@ const blogPosts = [
       {
         href: '/blog/4',
         id:4,
-        imgSrc: 'blog4.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1707379910/Frokerassets/blog4trolly_neto6j.png',
         author: 'Varshita',
         date: '9 Feb 2024',
         title: 'The Slice of History: How Food...',
@@ -141,7 +141,7 @@ const blogPosts = [
       {
         href: '/blog/3',
         id:3,
-        imgSrc: 'blog3.jpg',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1707310824/Frokerassets/balcony-garden-2_ejywyi.jpg',
         author: 'Varshita',
         date: '9 Feb 2024',
         title: 'A Comprehensive Guide to Desi ...',
@@ -150,7 +150,7 @@ const blogPosts = [
       {
         href: '/blog/2',
         id:2,
-        imgSrc: 'blog2.png',
+        imgSrc: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1707379910/Frokerassets/blog2veg_uye1xc.png',
         author: 'Varshita',
         date: '9 Feb 2024',
         title: 'Efficient Meal Prep: Time-Savi...',
@@ -159,7 +159,7 @@ const blogPosts = [
       {
         href: '/blog/1',
         id:1,
-        imgSrc: 'blog1.jpg',
+        imgSrc: 'https://res.cloudinary.com/dvgxbofjf/image/upload/v1721558371/lmhhzughlutilvekq412.jpg',
         author: 'Varshita',
         date: '8 Feb 2024',
         title: 'Unlocking the Secrets of Healt...',

@@ -5,7 +5,7 @@ const blogs = [
     {
       id: 1,
       Title: "Unlocking the Secrets of Healthy Eating: A Guide to Nutritious Nosh",
-      thumbnail: "blog1.jpg",
+      thumbnail: "https://res.cloudinary.com/dvgxbofjf/image/upload/v1721558371/lmhhzughlutilvekq412.jpg",
       author: "Varshita",
       readTime: "5 minutes",
       likes: 49,
@@ -32,7 +32,7 @@ const blogs = [
     {
       id: 2,
       Title: "Efficient Meal Prep: Time-Saving Tips for Busy Foodies",
-      thumbnail: "blog2.jpg",
+      thumbnail: "https://res.cloudinary.com/dvgxbofjf/image/upload/v1721558371/lmhhzughlutilvekq412.jpg",
       author: "Varshita",
       readTime: "5 minutes",
       likes: 49,
