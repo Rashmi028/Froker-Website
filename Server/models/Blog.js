@@ -3,7 +3,7 @@ import mongoose from "mongoose"
 const blogSchema = new mongoose.Schema(
     {
         id: {
-            type: Number,
+            type: String,
             required: true,
             unique: true,
         },
@@ -30,6 +30,11 @@ const blogSchema = new mongoose.Schema(
         likes: {
             type: Number,
             default: 0
+        },
+        likedBy: { 
+            type: [String],  // Assuming likedBy is an array of strings
+            default: [],
+            unique: false  // Ensure this is not set to true
         },
         description: [{
         descTitle: {

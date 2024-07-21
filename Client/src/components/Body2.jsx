@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import './body2.css';
 import BlogPost from './BlogPost';
-
+import { Link } from 'react-router-dom';
 const blogPosts = [
     {
         href: '/blog/18',
+        id:18,
         imgSrc: 'blog18.png',
         author: 'Roshan',
         date: '3 May 2024',
@@ -13,6 +14,7 @@ const blogPosts = [
     },
     {
         href: '/blog/17',
+        id:17,
         imgSrc: 'blog17.png',
         author: 'Varshita',
         date: '23 April 2024',
@@ -21,6 +23,7 @@ const blogPosts = [
     },
     {
         href: '/blog/16',
+        id:16,
         imgSrc: 'blog16.png',
         author: 'Varshita',
         date: '23 April 2024',
@@ -29,6 +32,7 @@ const blogPosts = [
     },
     {
         href: '/blog/15',
+        id:15,
         imgSrc: 'blog15.png',
         author: 'Varshita',
         date: '20 April 2024',
@@ -37,6 +41,7 @@ const blogPosts = [
     },
     {
         href: '/blog/14',
+        id:14,
         imgSrc: 'blog14.png',
         author: 'Varshita',
         date: '8 April 2024',
@@ -45,6 +50,7 @@ const blogPosts = [
     },
     {
         href: '/blog/13',
+        id:13,
         imgSrc: 'blog13.png',
         author: 'Varshita',
         date: '6 April 2024',
@@ -53,6 +59,7 @@ const blogPosts = [
     },
     {
         href: '/blog/12',
+        id:12,
         imgSrc: 'blog12.png',
         author: 'Abhishek Sairam',
         date: '29 March 2024',
@@ -61,6 +68,7 @@ const blogPosts = [
     },
     {
         href: '/blog/11',
+        id:11,
         imgSrc: 'blog11.png',
         author: 'Varshita',
         date: '21 March 2024',
@@ -69,6 +77,7 @@ const blogPosts = [
     },
     {
         href: '/blog/10',
+        id:10,
         imgSrc: 'blog10.png',
         author: 'Varshita',
         date: '15 March 2024',
@@ -77,6 +86,7 @@ const blogPosts = [
     },
     {
         href: '/blog/9',
+        id:9,
         imgSrc: 'blog9.png',
         author: 'Varshitha',
         date: '9 March 2024',
@@ -85,6 +95,7 @@ const blogPosts = [
       },
       {
         href: '/blog/8',
+        id:8,
         imgSrc: 'blog8.png',
         author: 'Varshita',
         date: '8 March 2024',
@@ -93,6 +104,7 @@ const blogPosts = [
       },
       {
         href: '/blog/7',
+        id:7,
         imgSrc: 'blog7.png',
         author: 'Varshita',
         date: '3 March 2024',
@@ -101,6 +113,7 @@ const blogPosts = [
       },
       {
         href: '/blog/6',
+        id:6,
         imgSrc: 'blog6.png',
         author: 'Varshitha',
         date: '3 March 2024',
@@ -109,6 +122,7 @@ const blogPosts = [
       },
       {
         href: '/blog/5',
+        id:5,
         imgSrc: 'blog5.png',
         author: 'Varshita',
         date: '9 Feb 2024',
@@ -117,6 +131,7 @@ const blogPosts = [
       },
       {
         href: '/blog/4',
+        id:4,
         imgSrc: 'blog4.png',
         author: 'Varshita',
         date: '9 Feb 2024',
@@ -125,6 +140,7 @@ const blogPosts = [
       },
       {
         href: '/blog/3',
+        id:3,
         imgSrc: 'blog3.jpg',
         author: 'Varshita',
         date: '9 Feb 2024',
@@ -133,6 +149,7 @@ const blogPosts = [
       },
       {
         href: '/blog/2',
+        id:2,
         imgSrc: 'blog2.png',
         author: 'Varshita',
         date: '9 Feb 2024',
@@ -141,6 +158,7 @@ const blogPosts = [
       },
       {
         href: '/blog/1',
+        id:1,
         imgSrc: 'blog1.jpg',
         author: 'Varshita',
         date: '8 Feb 2024',
@@ -149,7 +167,7 @@ const blogPosts = [
       }
 ];
 
-export default function Body2(props) {
+export default function Body2() {
     const [currentPage, setCurrentPage] = useState(1);
     const postsPerPage = 9;
     const totalPages = 2;
@@ -173,19 +191,19 @@ export default function Body2(props) {
                     <div>
                         <div style={{ textAlign: 'justify', paddingLeft: '1rem', paddingRight: '1rem' }}>
                             <div className="headin">
-                                <span>{props.post}</span>
+                                <span>Recent Posts</span>
                             </div>
                             <div className="blogss">
                                 {currentPosts.map((post, index) => (
-                                    <BlogPost
-                                        key={index}
-                                        href={post.href}
-                                        imgSrc={post.imgSrc}
-                                        author={post.author}
-                                        date={post.date}
-                                        title={post.title}
-                                        excerpt={post.excerpt}
-                                    />
+                                     <Link key={index} to={`/blog/${post.id}`}>
+                                        <BlogPost
+                                            imgSrc={post.imgSrc}
+                                            author={post.author}
+                                            date={post.date}
+                                            title={post.title}
+                                            excerpt={post.excerpt}
+                                        />
+                                    </Link>
                                 ))}
                             </div>
                         </div>

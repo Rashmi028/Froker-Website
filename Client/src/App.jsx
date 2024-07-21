@@ -14,7 +14,7 @@ function App() {
    <> 
     <div className='body'>
       <Body1/>
-      <Body2 post="Recent Posts"/>
+      <Body2/>
       <Newsletter/>
     </div>
   </>
