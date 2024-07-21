@@ -101,7 +101,7 @@ MONGO_URI=mongodb://localhost:27017/Blog
 4.Start the backend server:
 
 ```bash
-npm start
+node index.js
 ```
 #### Frontend
 1.Open a new terminal window or tab and navigate to the client directory:
@@ -117,7 +117,7 @@ npm install
 3.Start the frontend development server:
 
 ```bash
-npm start
+npm run dev
 ```
 ## 3. Access the Application
 Once both the backend and frontend servers are running, you can access the application by visiting http://localhost:3000 in your web browser.
