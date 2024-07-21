@@ -5,6 +5,8 @@ import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import MainContent from './components/MainContent.jsx';
+import Body2 from './components/Body2.jsx';
+import Newsletter from './components/Newsletter.jsx';
 import BlogPage from './BlogPage.jsx'
 import './index.css'
 

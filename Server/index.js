@@ -32,5 +32,23 @@ app.get('/api/blogs/:id', async (req, res) => {
       res.status(500).send('Server Error');
     }
   });
+  // API endpoint to like a blog
+app.post('/api/blogs/:id/like', async (req, res) => {
+    try {
+        const blog = await Blog.findOneAndUpdate(
+            { id: parseInt(req.params.id) },
+            { $inc: { likes: 1 } },
+            { new: true }
+        );
+        if (!blog) {
+            return res.status(404).send('Blog not found');
+        }
+        res.json(blog);
+    } catch (err) {
+        console.error(err);
+        res.status(500).send('Server Error');
+    }
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

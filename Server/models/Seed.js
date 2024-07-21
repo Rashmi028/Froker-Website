@@ -5,7 +5,7 @@ const blogs = [
     {
         id: "1",
         Title: 'Delegating Social Media Tasks to AI',
-        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1714712971/Screenshot_2024-05-03_103708_dx4yto.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Roshan',
         readTime: '2 minute read',
         likes: 0,
@@ -21,7 +21,7 @@ const blogs = [
     {
         id: "2",
         Title: 'The Rise of Quantum Computing',
-        thumbnail: 'https://example.com/quantum_computing.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Alice',
         readTime: '5 minute read',
         likes: 0,
@@ -42,7 +42,7 @@ const blogs = [
     {
         id: "3",
         Title: 'Understanding Blockchain Technology',
-        thumbnail: 'https://example.com/blockchain.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Bob',
         readTime: '4 minute read',
         likes: 0,
@@ -63,7 +63,7 @@ const blogs = [
     {
         id: "4",
         Title: 'AI in Healthcare: Transforming Patient Care',
-        thumbnail: 'https://example.com/ai_healthcare.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Carol',
         readTime: '6 minute read',
         likes: 0,
@@ -84,7 +84,7 @@ const blogs = [
     {
         id: "5",
         Title: 'The Importance of Cybersecurity in the Digital Age',
-        thumbnail: 'https://example.com/cybersecurity.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Dave',
         readTime: '3 minute read',
         likes: 0,
@@ -105,7 +105,7 @@ const blogs = [
     {
         id: "6",
         Title: 'Exploring the Metaverse: A New Digital Frontier',
-        thumbnail: 'https://example.com/metaverse.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Eve',
         readTime: '7 minute read',
         likes: 0,
@@ -126,7 +126,7 @@ const blogs = [
     {
         id: "7",
         Title: 'Advancements in Renewable Energy Technologies',
-        thumbnail: 'https://example.com/renewable_energy.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Frank',
         readTime: '5 minute read',
         likes: 0,
@@ -147,7 +147,7 @@ const blogs = [
     {
         id: "8",
         Title: 'The Evolution of 5G Technology',
-        thumbnail: 'https://example.com/5g_technology.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Grace',
         readTime: '4 minute read',
         likes: 0,
@@ -168,7 +168,7 @@ const blogs = [
     {
         id: "9",
         Title: 'The Future of Autonomous Vehicles',
-        thumbnail: 'https://example.com/autonomous_vehicles.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Hank',
         readTime: '6 minute read',
         likes: 0,
@@ -189,7 +189,7 @@ const blogs = [
     {
         id: "10",
         Title: 'Smart Cities: Integrating Technology into Urban Life',
-        thumbnail: 'https://example.com/smart_cities.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Ivy',
         readTime: '5 minute read',
         likes: 0,
@@ -210,7 +210,7 @@ const blogs = [
     {
         id: "11",
         Title: 'Virtual Reality in Education: Enhancing Learning Experiences',
-        thumbnail: 'https://example.com/vr_education.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Jack',
         readTime: '4 minute read',
         likes: 0,
@@ -231,7 +231,7 @@ const blogs = [
     {
         id: "12",
         Title: 'Artificial Intelligence in Finance: Automating Investments',
-        thumbnail: 'https://example.com/ai_finance.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Kara',
         readTime: '5 minute read',
         likes: 0,
@@ -252,7 +252,7 @@ const blogs = [
     {
         id: "13",
         Title: 'The Impact of Big Data on Business Decisions',
-        thumbnail: 'https://example.com/big_data.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Liam',
         readTime: '3 minute read',
         likes: 0,
@@ -273,7 +273,7 @@ const blogs = [
     {
         id: "14",
         Title: 'The Role of IoT in Smart Homes',
-        thumbnail: 'https://example.com/iot_smart_homes.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Mia',
         readTime: '4 minute read',
         likes: 0,
@@ -294,7 +294,7 @@ const blogs = [
     {
         id: "15",
         Title: 'Machine Learning in Marketing: Personalizing Customer Experiences',
-        thumbnail: 'https://example.com/ml_marketing.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Noah',
         readTime: '5 minute read',
         likes: 0,
@@ -315,7 +315,7 @@ const blogs = [
     {
         id: "16",
         Title: 'The Future of Robotics: Advancements and Applications',
-        thumbnail: 'https://example.com/robotics.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Olivia',
         readTime: '6 minute read',
         likes: 0,
@@ -336,7 +336,7 @@ const blogs = [
     {
         id:"17",
         Title: 'The Impact of Social Media on Society',
-        thumbnail: 'https://example.com/social_media.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Paul',
         readTime: '3 minute read',
         likes: 0,
@@ -357,7 +357,7 @@ const blogs = [
     {
         id: "18",
         Title: 'Ethical Considerations in Artificial Intelligence',
-        thumbnail: 'https://example.com/ai_ethics.png',
+        thumbnail: 'https://res.cloudinary.com/dapbrn8a9/image/upload/q_auto:low/v1709362347/f30i30_zzcco6.png',
         author: 'Quinn',
         readTime: '5 minute read',
         likes: 0,
