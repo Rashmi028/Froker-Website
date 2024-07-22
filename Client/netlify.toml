@@ -1,0 +1,9 @@
+[build]
+  base    = "client"   # Base directory for your frontend code
+  publish = "build"    # Directory to publish
+  command = "npm run build"  # Build command
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

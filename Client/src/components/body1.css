@@ -16,7 +16,7 @@ element.style {
 
 .froker-blog {
     font-family: sans-serif;
-  
+    position: relative;
     text-align: center;
 }
 .froker-blog-span {

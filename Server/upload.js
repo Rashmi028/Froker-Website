@@ -5,8 +5,9 @@ cloudinary.config({
     cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
     api_key: process.env.CLOUDINARY_API_KEY,
     api_secret: process.env.CLOUDINARY_API_SECRET,
-  });
-  const images=[
+});
+
+const images = [
     './images/blog1.jpg',
     './images/blog2.png',
     './images/blog3.png',
@@ -25,10 +26,15 @@ cloudinary.config({
     './images/blog16.png',
     './images/blog17.png',
     './images/blog18.png',
-  ];
-  (async function run(){
-    for(const image of images){
-        const result=await cloudinary.uploader.upload(image);
-        console.log(result.secure_url);
+];
+
+(async function run() {
+    for (const image of images) {
+        try {
+            const result = await cloudinary.uploader.upload(image);
+            console.log(result.secure_url);
+        } catch (error) {
+            console.error(`Failed to upload ${image}: `, error);
+        }
     }
-  })
+})();
