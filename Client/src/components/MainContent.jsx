@@ -3,11 +3,13 @@ import { useParams } from 'react-router-dom';  // Import useParams to get URL pa
 import './maincontent.css';
 import Body2 from './Body2';
 import Newsletter from './Newsletter';
+import Popup from './Popup';
 
 export default function MainContent() {
     const { id } = useParams();  // Extract the blog ID from the URL
     const [blog, setBlog] = useState(null);
     const [userId, setUserId] = useState('');
+    const [isPopupVisible, setIsPopupVisible] = useState(true);  // State to manage popup visibility
 
     useEffect(() => {
         fetch(`http://localhost:5000/api/blogs/${id}`)
@@ -39,7 +41,9 @@ export default function MainContent() {
         });
     };
     
-    
+    const handleClosePopup = () => {
+        setIsPopupVisible(false);
+    };
 
     if (!blog) return <div>Loading...</div>;  // Show loading state while fetching data
 
@@ -107,6 +111,7 @@ export default function MainContent() {
             </div>
             <Body2/>
             <Newsletter/>
+            {isPopupVisible && <Popup onClose={handleClosePopup} />}  {/* Conditionally render Popup */}
         </div>
     );
 }

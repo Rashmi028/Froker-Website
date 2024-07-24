@@ -9,6 +9,7 @@ import Body2 from './components/Body2.jsx';
 import Newsletter from './components/Newsletter.jsx';
 import BlogPage from './BlogPage.jsx'
 import './index.css'
+import Popup from './components/Popup.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(  
     <BrowserRouter>
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
          <Route  path='/' element={<App/>}/>
          <Route  path='/blogs' element={<App/>}/>
          <Route path="/blog/:id" element={<MainContent />} />
+         <Route  path='/pop' element={<Popup/>}/>
 
       </Routes>
       <Footer/>

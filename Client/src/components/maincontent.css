@@ -11,6 +11,41 @@
     font-weight: 400;
     position: relative;
 }
+/* Adjust the height of the .secondImgart class */
+.secondImgart {
+    border-radius: 1rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 50vh; /* Adjust the height as needed */
+    object-fit: cover;
+    width: 100%;
+    display: block
+}
+
+/* Adjust the height of .secondImgartt if needed */
+.secondImgartt {
+    align-items: center;
+    border-radius: 1rem;
+    display: flex;
+    height: auto; /* Or another appropriate value */
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* Ensure .secondImgart and .secondImgartt do not overlap */
+@media screen and (max-width: 900px) {
+    .secondImgartt {
+        height: 30vh; /* Or another appropriate value */
+        width: 100%;
+    }
+}
+
+
+img, video {
+    height: auto;
+    max-width: 100%;
+}
 .childArticle {
     border-radius: 2rem;
     height: 80vh;
