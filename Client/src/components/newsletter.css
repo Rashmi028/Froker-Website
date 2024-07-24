@@ -253,3 +253,53 @@ button, select {
         width: 60%;
     }
 }
+@media screen and (max-width: 1200px) {
+    .newsletter {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 1rem .1rem .1rem;
+        overflow: hidden;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .letterimg {
+        align-self: center;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .pic {
+        padding: 0 1rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .lettersecond {
+        justify-content: flex-start;
+        padding-left: 12%;
+        padding-right: 12%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .subscribebutton, .subscribetonews {
+        display: none;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .subnews, .subnews b {
+        color: #3d3d3d;
+        font-style: normal;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .subnews {
+        font-family: Gilroy-SemiBold, sans-serif;
+        font-size: clamp(1rem,2vw,1.6rem);
+        font-weight: 400;
+        line-height: clamp(2rem,3vw,2rem);
+        margin-bottom: 1rem;
+    }
+}

@@ -21,8 +21,8 @@ export default function Header() {
                     <li className='nav-item'><Link className="nav-links" to="/froker">Discover Froker</Link></li>
                 </ul>
                 <div className="nav-icon" onClick={toggleMenu}>
-                    <img src="/nav-icon.svg" alt="open" style={{ width: '100%' }} />
-                </div>
+            <img src="/nav-icon.svg" alt="open" style={{ width: '100%' }} />
+        </div>
             </div>
         </div>
     );

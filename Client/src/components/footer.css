@@ -145,3 +145,113 @@ audio, canvas, embed, iframe, img, object, svg, video {
         display: none;
     }
 }
+@media only screen and (max-width: 781px) {
+    .des {
+        display: none;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .footersvg {
+        display: flex;
+        flex-wrap: nowrap;
+        height: auto;
+        width: 100vw;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .footersvgm {
+        display: flex;
+        flex-wrap: nowrap;
+        height: auto;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .desa {
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .centered-textm {
+        color: #f0f8ff;
+        left: 50%;
+        padding: 5px 10px;
+        position: absolute;
+        text-align: center;
+        top: 70%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media only screen and (max-width: 780px) {
+    .footer-columns {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .column1 {
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .child {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .column2, .column3 {
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .contact11 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .arr {
+        width: 1rem;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .home {
+        margin-left: 1rem;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .column2, .column3 {
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .column2, .column3 {
+        flex-wrap: wrap;
+        padding: 6%;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .contact1 {
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .social-media {
+        padding-right: 2rem;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .column4 {
+        display: none;
+    }
+}

@@ -127,6 +127,24 @@
     }
 }
 @media screen and (max-width: 960px) {
+    .nav-icon {
+        color: #ffdd40;
+        cursor: pointer;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-100%);
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .nav-icon, .nav-logo .icon {
+        height: 2rem;
+        width: 2rem;
+    }
+}
+@media screen and (max-width: 960px) {
     .nav-menu.active {
         background: #fff;
         left: 0;
